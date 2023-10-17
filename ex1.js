@@ -1,6 +1,9 @@
 /**
- * Completa cada ejercicio. Solo necesitas una línea de código JavaScript para cada ejercicio. BONUS: Haz el ejercicio sin modificar el ex1.html
- */
+ * Completa cada ejercicio. Solo necesitas una línea de código JavaScript para cada ejercicio.
+ *
+ *  * REsultado deseado: https://oscarm.tinytake.com/msc/ODgxNzI5N18yMjI0ODE2OQ
+ *
+ **/
 
 /**
  * Cambia el título de la página a rojo usando un estilo en línea
@@ -26,4 +29,7 @@
 /**
  * Añade la clase CSS "ocultar" al penúltimo párrafo
  * Ayuda: https://simpledev.io/lesson/add-class-js/
+ * 
+ * BONUS: Haz el ejercicio sin modificar el ex1.html
+ 
  */
