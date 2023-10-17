@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        button {
+            font-size: 24px;
+        }
+
+
+
+        #panel {
+            width: 400px;
+            height: 400px;
+            background-color: blanchedalmond;
+            border: 1px dotted black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Los botones locos</h1>
+    <p>Cada botón promete hacer una cosa...pero solo funciona bien el primero. Implementa los cambios necesarios en el
+        fichero ex2.js para hacer que funcione todo lo que se promete</p>
+    <div id="panel">
+
+    </div>
+    <div>
+        <button onclick="boton1()">Al hacer click en mi, cambio el color de fondo del panel a
+            verde</button>
+    </div>
+    <div>
+        <button onclick="boton2()">Al hacer click en mi, cambio el color de fondo del panel a
+            azul</button>
+    </div>
+    <div>
+        <button>Al hacer clic en mi, voy a ejecutar la función que se llama
+            'asociamePorFavor'</button>
+    </div>
+    <div><button onclick="calcularLetrasTitulo()">Al hacer clic en mi, voy a obtener el número de carácteres del h1 y
+            voy a colocar dicho valor en el
+            panel</button></div>
+    <script src="ex2.js"></script>
+</body>
+
+</html>
