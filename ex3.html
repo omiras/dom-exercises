@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 200px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="juego">
+        <h1>Cada vez que hacemos click en pacman, se incrementa los clicks del párrafo 1. Reproduce el mismo
+            comportamiento cuando hacemos clic encima del fanstasma.
+        </h1>
+
+        <img onclick="clicPacman()" id="pacman" src="pacman.jpg" alt="">
+        <img id="fantasma" src="ghost.png" alt="">
+
+        <p>Clics en pacman: <span id="clics-pacman">0</span></p>
+        <p>Clics en fantasma: <span id="clics-fantasma">0</span></p>
+
+    </div>
+
+    <script src="ex3.js"></script>
+</body>
+
+</html>
