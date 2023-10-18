@@ -5,11 +5,11 @@ ejemplo: Abrir con live server ex1.html
 
 ## ex1.html
 
-El ejercicio debe ser implementado en ex1.js
+El ejercicio debe ser implementado en ex1.js, pero puedes modificar ex1.html
 
 ## ex2.html
 
-El ejercicio debe ser implementado en ex2.js
+El ejercicio debe ser implementado tanto en ex2.js como ex2.html
 Resultado esperado : [vídeo](https://oscarm.tinytake.com/msc/ODgxNzQwOF8yMjI0ODMxMA)
 
 ## ex3.html
