@@ -15,4 +15,8 @@ function clicPacman() {
 
 function clicFantasma() {
   // incremento los clics fantasma
+  numeroClicsFantasma++;
+
+  // actualizo el text content del nodo adecuado
+  document.querySelector("#clics-fantasma").textContent = numeroClicsFantasma;
 }
