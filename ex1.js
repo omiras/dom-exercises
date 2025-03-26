@@ -27,7 +27,7 @@
  */
 
 /**
- * Añade la clase CSS "ocultar" al penúltimo párrafo
+ * Añade la clase CSS "ocultar" al penúltimo párrafo. La última cita debería desaparecer. Compruebalo con el inspector de elementos. 
  * Ayuda: https://simpledev.io/lesson/add-class-js/
  * 
  * BONUS: Haz el ejercicio sin modificar el ex1.html
